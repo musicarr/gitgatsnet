@@ -1,6 +1,9 @@
 import * as React from "react"
 import { Link } from "gatsby"
 
+import Layout from "../components/layout"
+//import Seo from "../components/seo"
+
 const page3test = () => (
   <Layout>
     <h1>this is page 3 test</h1>
@@ -11,4 +14,4 @@ const page3test = () => (
 
 //export const Head = () => <Seo title="Page three" />
 
-export default SecondPage
+export default page3test
